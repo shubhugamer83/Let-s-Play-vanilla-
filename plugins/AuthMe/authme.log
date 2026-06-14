@@ -431,3 +431,10 @@
 [06-13 01:44:13]: [INFO] [LICENSE] This product includes GeoLite2 data created by MaxMind, available at https://www.maxmind.com
 [06-13 01:44:14]: [INFO] AuthMe 6.0.0 build n.2734 successfully enabled!
 [06-13 01:44:43]: [INFO] AuthMe 6.0.0-b2734 disabled!
+[06-14 03:34:04]: [INFO] SQLite Setup finished
+[06-14 03:34:04]: [INFO] No supported permissions system found! Permissions are disabled!
+[06-14 03:34:04]: [INFO] [LICENSE] This product includes GeoLite2 data created by MaxMind, available at https://www.maxmind.com
+[06-14 03:34:05]: [INFO] AuthMe 6.0.0 build n.2734 successfully enabled!
+[06-14 03:35:40]: [FINE] shubhugamer logged in 127.0.0.1
+[06-14 03:36:48]: [FINE] ADMIN_lp logged in 127.0.0.1
+[06-14 03:38:54]: [INFO] AuthMe 6.0.0-b2734 disabled!

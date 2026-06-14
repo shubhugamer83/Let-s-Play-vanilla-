@@ -4,15 +4,16 @@
       "minecraft:oak_leaves": 1
     },
     "minecraft:custom": {
-      "minecraft:sprint_one_cm": 233,
-      "minecraft:time_since_rest": 3604,
-      "minecraft:walk_one_cm": 1591,
-      "minecraft:total_world_time": 3604,
-      "minecraft:leave_game": 1,
-      "minecraft:fly_one_cm": 9776,
-      "minecraft:play_time": 3604,
-      "minecraft:jump": 22,
-      "minecraft:time_since_death": 3604
+      "minecraft:sprint_one_cm": 1106,
+      "minecraft:time_since_rest": 5973,
+      "minecraft:walk_one_cm": 4352,
+      "minecraft:total_world_time": 5973,
+      "minecraft:leave_game": 2,
+      "minecraft:fly_one_cm": 62249,
+      "minecraft:play_time": 5973,
+      "minecraft:climb_one_cm": 16,
+      "minecraft:jump": 30,
+      "minecraft:time_since_death": 5973
     }
   },
   "DataVersion": 4790
