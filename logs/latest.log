@@ -1,200 +1,188 @@
-[03:33:28] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
-[03:33:28] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-67-main@10a73fe (2026-05-31T17:09:48Z) for Minecraft 26.1.2
-[03:33:29] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[03:33:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
-[03:33:31] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[05:52:50] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.2+10-LTS; Microsoft Microsoft-13053558) on Linux 6.8.0-1052-azure (amd64)
+[05:52:50] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-67-main@10a73fe (2026-05-31T17:09:48Z) for Minecraft 26.1.2
+[05:52:50] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[05:52:52] [ServerMain/INFO]: [PluginInitializerManager] Initialized 5 plugins
+[05:52:52] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - JEIRecipeBridge (1.0.1)
-[03:33:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
+[05:52:52] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (4):
  - AuraSkills (2.3.12), AuthMe (6.0.0-b2734), Chunky (1.5.3), LevelledMobs (4.5.3 b152)
-[03:33:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[03:33:47] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/shulker@minecraft:loot_table}.pools[2].entries[0]: Missing element double_shulker_shells:entities/shulker of type minecraft:loot_table
-[03:33:47] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
-[03:33:47] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
-[03:33:47] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
-[03:33:50] [ServerMain/INFO]: Loaded 1721 recipes
-[03:33:50] [ServerMain/INFO]: Loaded 1894 advancements
-[03:33:50] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[03:33:51] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 604.6ms
-[03:33:51] [Server thread/INFO]: Starting minecraft server version 26.1.2
-[03:33:51] [Server thread/INFO]: Loading properties
-[03:33:51] [Server thread/INFO]: This server is running Paper version 26.1.2-67-main@10a73fe (2026-05-31T17:09:48Z) (Implementing API version 26.1.2.build.67-stable)
-[03:33:51] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[03:33:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[03:33:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:33:52] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[03:33:52] [Server thread/INFO]: Default game type: SURVIVAL
-[03:33:52] [Server thread/INFO]: Generating keypair
-[03:33:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:33:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[03:33:52] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[03:33:53] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/ch/jalu/injector/1.0/injector-1.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/javatar/javatar/2.5/javatar-2.5.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.7/mariadb-java-client-3.5.7.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
-[03:33:54] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
-[03:33:54] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.5.3 b152
-[03:33:54] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.12
-[03:33:54] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v6.0.0-b2734
-[03:33:54] [Server thread/INFO]: [JEIRecipeBridge] Loading server plugin JEIRecipeBridge v1.0.1
-[03:33:54] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.3
-[03:33:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:33:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:33:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:33:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:33:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:33:54] [Server thread/INFO]: Preparing level "world"
-[03:33:56] [Server thread/INFO]: Loading 25 persistent chunks for level 'minecraft:overworld'...
-[03:33:56] [Server thread/INFO]: Preparing spawn area: 28%
-[03:33:56] [Server thread/INFO]: Preparing spawn area: 28%
-[03:33:57] [Server thread/INFO]: Prepared spawn area in 1601 ms
-[03:33:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
-[03:33:57] [Server thread/INFO]: Prepared spawn area in 2 ms
-[03:33:57] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
-[03:33:57] [Server thread/INFO]: Prepared spawn area in 0 ms
-[03:33:57] [Server thread/INFO]: Done preparing level "world" (3.324s)
-[03:33:57] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.5.3 b152
-[03:33:57] [Server thread/INFO]: [LevelledMobs] version: org.bukkit.craftbukkit.CraftServer
-[03:33:57] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
-[03:33:58] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
-[03:33:58] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
-[03:33:58] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
-[03:33:58] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
-[03:33:58] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
-[03:33:58] [Server thread/INFO]: [LevelledMobs] Current rules hash: 0e7bf4b02c7f793eaddbf0dae9ba1ac020ba1470207a2633d359dc42678ad9cb
-[03:33:58] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
-[03:33:58] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
-[03:33:58] [Server thread/INFO]: [LevelledMobs] Running misc procedures
-[03:33:58] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
-[03:33:58] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 724ms)
-[03:33:58] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.12
-[03:34:01] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
-[03:34:02] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 22 ms
-[03:34:02] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 26.1.2.build.67! Trying to find NMS support
-[03:34:02] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC26_1' loaded!
-[03:34:02] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
-[03:34:02] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
-[03:34:02] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
-[03:34:03] [Server thread/INFO]: [AuthMe] Enabling AuthMe v6.0.0-b2734
-[03:34:04] [Server thread/INFO]: [AuthMe] SQLite Setup finished
-[03:34:04] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
-[03:34:04] [Server thread/INFO]: [AuthMe] [LICENSE] This product includes GeoLite2 data created by MaxMind, available at https://www.maxmind.com
-[03:34:05] [Server thread/INFO]: [AuthMe] AuthMe 6.0.0 build n.2734 successfully enabled!
-[03:34:05] [Server thread/INFO]: [JEIRecipeBridge] Enabling JEIRecipeBridge v1.0.1
-[03:34:05] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.3
-[03:34:06] [Server thread/INFO]: [spark] Starting background profiler...
-[03:34:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:34:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03:34:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03:34:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:34:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:34:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:34:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:34:08] [Server thread/INFO]: Running delayed init tasks
-[03:34:09] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 327 total sources
-[03:34:09] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
-[03:34:09] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
-[03:34:09] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
-[03:34:10] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[03:34:10] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
-[03:34:10] [Server thread/INFO]: Done (43.793s)! For help, type "help"
-[03:34:10] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 2 build(s) behind ***
-[03:34:10] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
-[03:35:28] [User Authenticator #0/INFO]: UUID of player shubhugamer is 0fa5d81e-7677-389e-b7d0-a2a0708f48aa
-[03:35:28] [Server thread/INFO]: shubhugamer (0fa5d81e-7677-389e-b7d0-a2a0708f48aa) lost connection: Disconnected
-[03:35:30] [User Authenticator #1/INFO]: UUID of player shubhugamer is 0fa5d81e-7677-389e-b7d0-a2a0708f48aa
-[03:35:39] [Server thread/INFO]: shubhugamer[/127.0.0.1:52312] logged in with entity id 114 at ([minecraft:overworld]-3958.905712991894, 63.0, 1994.6213013190497)
-[03:35:40] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] shubhugamer logged in 127.0.0.1
-[03:35:56] [Server thread/INFO]: shubhugamer issued server command: /spark
-[03:35:58] [Server thread/INFO]: shubhugamer lost connection: Disconnected
-[03:36:15] [User Authenticator #2/INFO]: Disconnecting Admin_lp (/127.0.0.1:42690): You should join using username ADMIN_lp, not Admin_lp.
-[03:36:15] [User Authenticator #2/INFO]: UUID of player Admin_lp is da9a04af-3900-37c7-a132-6321e72a90f6
-[03:36:15] [Server thread/INFO]: Admin_lp (/127.0.0.1:42690) lost connection: You should join using username ADMIN_lp, not Admin_lp.
-[03:36:43] [User Authenticator #3/INFO]: UUID of player ADMIN_lp is 8a4d78d2-3fea-35c2-9260-a5fd885d739a
-[03:36:48] [Server thread/INFO]: ADMIN_lp[/127.0.0.1:34246] logged in with entity id 351 at ([minecraft:overworld]185.3078986150418, 133.0763173117206, 456.5243142398031)
-[03:36:48] [Craft Scheduler Thread - 5 - AuthMe/INFO]: [AuthMe] ADMIN_lp logged in 127.0.0.1
-[03:36:58] [Server thread/INFO]: ADMIN_lp issued server command: /spark
-[03:37:01] [Server thread/INFO]: ADMIN_lp issued server command: /spark tps
-[03:37:14] [Server thread/INFO]: ADMIN_lp issued server command: /ping
-[03:37:17] [Server thread/INFO]: ADMIN_lp issued server command: /spark ping
-[03:37:26] [Server thread/INFO]: ADMIN_lp issued server command: /spark tps
-[03:37:38] [Server thread/INFO]: ADMIN_lp issued server command: /spark healthreport
-[03:38:34] [Server thread/INFO]: ADMIN_lp issued server command: /spark tps
-[03:38:46] [Server thread/INFO]: ADMIN_lp lost connection: Disconnected
-[03:38:54] [Server thread/INFO]: Stopping the server
-[03:38:54] [Server thread/INFO]: Stopping server
-[03:38:54] [Server thread/INFO]: [Chunky] Disabling Chunky v1.5.3
-[03:38:54] [Server thread/INFO]: [JEIRecipeBridge] Disabling JEIRecipeBridge v1.0.1
-[03:38:54] [Server thread/INFO]: [AuthMe] Disabling AuthMe v6.0.0-b2734
-[03:38:54] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
-[03:38:54] [Server thread/INFO]: [AuthMe] AuthMe 6.0.0-b2734 disabled!
-[03:38:54] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.12
-[03:38:55] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.5.3 b152
-[03:38:55] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
-[03:38:55] [Craft Scheduler Thread - 0 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
-[03:38:55] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 0ms)
-[03:38:55] [Craft Scheduler Thread - 1 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
-[03:38:55] [Server thread/INFO]: Saving players
-[03:38:55] [Server thread/INFO]: Saving worlds
-[03:38:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:38:55] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
-[03:38:55] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
-[03:38:55] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Saved 1586 block chunks, 793 entity chunks, 1 poi chunks in world 'minecraft:overworld' in 4.88s
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
-[03:39:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
-[03:39:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
-[03:39:00] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
-[03:39:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:39:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:39:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:39:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:39:00] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[03:39:00] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[03:39:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[03:39:00] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[05:53:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[05:53:07] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/shulker@minecraft:loot_table}.pools[2].entries[0]: Missing element double_shulker_shells:entities/shulker of type minecraft:loot_table
+[05:53:07] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/bat@minecraft:loot_table}.pools[2].entries[0]: Missing element bat_membranes:entities/bat of type minecraft:loot_table
+[05:53:07] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/husk@minecraft:loot_table}.pools[2].entries[0]: Missing element husks_drop_sand:entities/husk of type minecraft:loot_table
+[05:53:07] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:entities/villager@minecraft:loot_table}.pools[2].entries[0]: Missing element villager_death:entities/villager of type minecraft:loot_table
+[05:53:10] [ServerMain/INFO]: Loaded 1721 recipes
+[05:53:10] [ServerMain/INFO]: Loaded 1894 advancements
+[05:53:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[05:53:10] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 500.2ms
+[05:53:10] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[05:53:10] [Server thread/INFO]: Loading properties
+[05:53:10] [Server thread/INFO]: This server is running Paper version 26.1.2-67-main@10a73fe (2026-05-31T17:09:48Z) (Implementing API version 26.1.2.build.67-stable)
+[05:53:10] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[05:53:11] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[05:53:11] [Server thread/INFO]: Using 4 threads for Netty based IO
+[05:53:11] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[05:53:11] [Server thread/INFO]: Default game type: SURVIVAL
+[05:53:11] [Server thread/INFO]: Generating keypair
+[05:53:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[05:53:12] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[05:53:12] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[05:53:12] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/javatar/javatar/2.5/javatar-2.5.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.7/mariadb-java-client-3.5.7.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+[05:53:13] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/Let-s-Play-vanilla-/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+[05:53:13] [Server thread/INFO]: [LevelledMobs] Loading server plugin LevelledMobs v4.5.3 b152
+[05:53:13] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.12
+[05:53:13] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v6.0.0-b2734
+[05:53:13] [Server thread/INFO]: [JEIRecipeBridge] Loading server plugin JEIRecipeBridge v1.0.1
+[05:53:13] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.3
+[05:53:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[05:53:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05:53:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[05:53:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05:53:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[05:53:13] [Server thread/INFO]: Preparing level "world"
+[05:53:16] [Server thread/INFO]: Loading 25 persistent chunks for level 'minecraft:overworld'...
+[05:53:16] [Server thread/INFO]: Preparing spawn area: 28%
+[05:53:17] [Server thread/INFO]: Preparing spawn area: 28%
+[05:53:17] [Server thread/INFO]: Prepared spawn area in 1346 ms
+[05:53:17] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[05:53:17] [Server thread/INFO]: Prepared spawn area in 0 ms
+[05:53:17] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[05:53:17] [Server thread/INFO]: Prepared spawn area in 0 ms
+[05:53:17] [Server thread/INFO]: Done preparing level "world" (4.201s)
+[05:53:17] [Server thread/INFO]: [LevelledMobs] Enabling LevelledMobs v4.5.3 b152
+[05:53:17] [Server thread/INFO]: [LevelledMobs] version: org.bukkit.craftbukkit.CraftServer
+[05:53:17] [Server thread/INFO]: [LevelledMobs] Building reflection cache, use simple names: true
+[05:53:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading files...
+[05:53:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'settings.yml'...
+[05:53:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'messages.yml'...
+[05:53:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'externalplugins.yml'...
+[05:53:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'rules.yml'...
+[05:53:18] [Server thread/INFO]: [LevelledMobs] Current rules hash: cfb27c671f4921cb5d9a02f8fad443350f6cc6fc20663aa9d1f35d465a459ce9
+[05:53:18] [Server thread/INFO]: [LevelledMobs] File Loader: Loading file 'customdrops.yml'...
+[05:53:18] [Server thread/INFO]: [LevelledMobs] Listeners: Registering event listeners...
+[05:53:18] [Server thread/INFO]: [LevelledMobs] Running misc procedures
+[05:53:18] [Server thread/INFO]: [LevelledMobs] Tasks: Starting async nametag auto update task...
+[05:53:18] [Server thread/INFO]: [LevelledMobs] Start-up complete (took 710ms)
+[05:53:18] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.12
+[05:53:21] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[05:53:22] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 36 ms
+[05:53:22] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 26.1.2.build.67! Trying to find NMS support
+[05:53:22] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC26_1' loaded!
+[05:53:22] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[05:53:22] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[05:53:22] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[05:53:23] [Server thread/INFO]: [AuthMe] Enabling AuthMe v6.0.0-b2734
+[05:53:23] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[05:53:24] [Server thread/INFO]: [AuthMe] No supported permissions system found! Permissions are disabled!
+[05:53:24] [Server thread/INFO]: [AuthMe] [LICENSE] This product includes GeoLite2 data created by MaxMind, available at https://www.maxmind.com
+[05:53:24] [Server thread/INFO]: [AuthMe] AuthMe 6.0.0 build n.2734 successfully enabled!
+[05:53:24] [Server thread/INFO]: [JEIRecipeBridge] Enabling JEIRecipeBridge v1.0.1
+[05:53:24] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.3
+[05:53:25] [Server thread/INFO]: [spark] Starting background profiler...
+[05:53:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05:53:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05:53:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05:53:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05:53:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05:53:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05:53:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[05:53:27] [Server thread/INFO]: Running delayed init tasks
+[05:53:28] [Craft Scheduler Thread - 5 - LevelledMobs/INFO]: [LevelledMobs] [WARN] LevelledMobs Update Checker Notice:
+[05:53:28] [Craft Scheduler Thread - 5 - LevelledMobs/INFO]: [LevelledMobs] [WARN] Your LevelledMobs version is outdated! Please update to v4.5.3.1 as soon as possible. (You're running v4.5.3)
+[05:53:28] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 327 total sources
+[05:53:28] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[05:53:28] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[05:53:28] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[05:53:28] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[05:53:28] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[05:53:28] [Server thread/INFO]: Done (40.712s)! For help, type "help"
+[05:53:29] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 5 build(s) behind ***
+[05:53:29] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[05:54:07] [User Authenticator #0/INFO]: UUID of player shubhugamer is 0fa5d81e-7677-389e-b7d0-a2a0708f48aa
+[05:54:15] [Server thread/INFO]: shubhugamer[/127.0.0.1:43138] logged in with entity id 252 at ([minecraft:overworld]-3958.0312632389364, 63.0, 1995.289900843545)
+[05:54:17] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] shubhugamer logged in 127.0.0.1
+[05:54:23] [Server thread/INFO]: shubhugamer issued server command: /ping
+[05:54:28] [Server thread/INFO]: shubhugamer issued server command: /sparkc ping
+[05:54:33] [Server thread/INFO]: shubhugamer issued server command: /skills
+[06:09:19] [Server thread/INFO]: shubhugamer lost connection: Disconnected
+[06:09:28] [Server thread/INFO]: Stopping the server
+[06:09:28] [Server thread/INFO]: Stopping server
+[06:09:28] [Server thread/INFO]: [Chunky] Disabling Chunky v1.5.3
+[06:09:28] [Server thread/INFO]: [JEIRecipeBridge] Disabling JEIRecipeBridge v1.0.1
+[06:09:28] [Server thread/INFO]: [AuthMe] Disabling AuthMe v6.0.0-b2734
+[06:09:28] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[06:09:28] [Server thread/INFO]: [AuthMe] AuthMe 6.0.0-b2734 disabled!
+[06:09:28] [Server thread/INFO]: [AuraSkills] Disabling AuraSkills v2.3.12
+[06:09:29] [Server thread/INFO]: [LevelledMobs] Disabling LevelledMobs v4.5.3 b152
+[06:09:29] [Server thread/INFO]: [LevelledMobs] Tasks: Shutting down other async tasks...
+[06:09:29] [Server thread/INFO]: [LevelledMobs] Shut-down complete (took 1ms)
+[06:09:29] [Craft Scheduler Thread - 3 - LevelledMobs/INFO]: [LevelledMobs] Mob processing queue Manager has exited
+[06:09:29] [Craft Scheduler Thread - 0 - LevelledMobs/INFO]: [LevelledMobs] Nametag update queue Manager has exited
+[06:09:29] [Server thread/INFO]: Saving players
+[06:09:29] [Server thread/INFO]: Saving worlds
+[06:09:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:09:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[06:09:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[06:09:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Saved 297 block chunks, 434 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.99s
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[06:09:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[06:09:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[06:09:30] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[06:09:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:09:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:09:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:09:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:09:30] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[06:09:30] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[06:09:30] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[06:09:30] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
